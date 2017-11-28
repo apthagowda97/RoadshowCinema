@@ -1,0 +1,16 @@
+CREATE TRIGGER `event1` AFTER INSERT ON `booking_tab`
+ FOR EACH ROW BEGIN
+
+DECLARE sum INT DEFAULT 0;
+if EXISTS (SELECT * from trig where USER_NAME = new.USER_NAME)
+THEN
+SELECT TOTAL_COST into sum from trig where USER_NAME = new.USER_NAME;
+SET sum :=sum + new.COST;
+UPDATE trig set TOTAL_COST = sum;
+END IF;
+IF NOT EXISTS (SELECT * from trig where USER_NAME = new.USER_NAME)
+THEN
+INSERT INTO trig VALUES (new.USER_NAME,COST);
+END IF;
+
+END

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+header {
+  background-color:#660066;
+  padding: 18px;
+}
+#logo {
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+header ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+}
+header ul li {
+  float: left;
+  margin-bottom: 0;
+}
+header ul li a {
+  color: #660060;
+  font-weight:bold;
+  font-size: 1em;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+.padding3 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.padding-top {
+  padding-top: 5px;
+}
+#one{
+    vertical-align: top;
+    color: red;
+    display: inline-block;
+    line-height: 20px;
+    height: 15px;
+}
+#submit {
+  background-color:#660066;
+  color: white;
+}
+
+.left {
+  margin-left: 0px; /* Put this class in the second buttons or input for the alignment in the form */
+}
+
+a img{
+  max-width:70%;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.padding4{
+  padding-top: 4em;
+  
+}
+#movie_name{
+  font-weight:bold; 
+  color:#660066;
+  text-align: center;
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+
+.details{
+  font-weight:bold; 
+  color:gray;
+  text-align: left;
+  text-decoration: none;
+
+  
+
+}
+
+h6{
+  line-height: 0.2;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+h6 span{
+  color:#5c5c3d;
+}
+
+.padding2{
+  padding-top: 5.5em;
+
+}
+

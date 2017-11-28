@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+header {
+  background-color:#660066;
+  padding: 18px;
+}
+
+#logo {
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.fifty-pad {
+  padding-left: 0%;
+  padding-right: 40%;
+}
+
+.padding3 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  line-height:0.9;
+}
+.padding4{
+  padding-top: 4em;
+  line-height:0.9;
+}
+
+
+#one{
+    vertical-align: top;
+    color: red;
+    display: inline-block;
+    line-height: 10px;
+    height: 15px;
+}
+.left {
+  margin-left: 0px; /* Put this class in the second buttons or input for the alignment in the form */
+}
+#sign_submit {
+  background-color: #660066;
+  color: white;
+}
+header ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+}
+header ul li {
+  float: left;
+  margin-bottom: 0;
+}
+
+header ul li a {
+  color: gray;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+.padding-top {
+  padding-top: 5px;
+}
